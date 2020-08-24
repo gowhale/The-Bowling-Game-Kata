@@ -6,6 +6,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestGetInput(t *testing.T) {
-	assert.EqualValues(t, "foo", "bar")
+func TestGutterGame(t *testing.T) {
+	assert.EqualValues(t, PlayGame(), 0)
 }
