@@ -4,6 +4,7 @@ package main
 
 type Game struct {
 	score int
+	rolls [int]
 }
 
 func (g *Game) roll(p int) {
