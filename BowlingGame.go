@@ -1,13 +1,14 @@
 package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-
-	fmt.Println("Hello World")
-
+type Game struct {
+	score int
 }
 
-func PlayGame() int {
-	return 0
+func (g Game) roll(p int) Game {
+
+	g.score += p
+
+	return g
 }
