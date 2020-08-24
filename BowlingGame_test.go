@@ -12,7 +12,7 @@ func TestGutterGame(t *testing.T) {
 
 	for i := 0; i < 20; i++ {
 
-		g = g.roll(0)
+		g.roll(0)
 
 	}
 
@@ -26,7 +26,7 @@ func TestAllOnes(t *testing.T) {
 
 	for i := 0; i < 20; i++ {
 
-		g = g.roll(1)
+		g.roll(1)
 
 	}
 

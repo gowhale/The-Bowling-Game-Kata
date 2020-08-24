@@ -6,9 +6,8 @@ type Game struct {
 	score int
 }
 
-func (g Game) roll(p int) Game {
+func (g *Game) roll(p int) {
 
 	g.score += p
 
-	return g
 }
